@@ -1,0 +1,10 @@
+title: My Resume
+content: |
+  Some content goes here
+experience:
+- position: Senior Software Engineer
+  start: 2017
+  end: 2019
+- position: Backend Engineer
+  start: 2016
+  end: 2017
