@@ -1,10 +1,53 @@
-title: My Resume
-content: |
-  Some content goes here
+title: Sergey Royz
+
+firstName: Sergey
+lastName: Royz
+
+info:
+  github: https://github.com/zjor
+  linkedin: https://www.linkedin.com/in/sergey-royz-0b33a821/
+  medium: https://medium.com/@zjor
+  phone: +420774053509
+  email: zjor.se@gmail.com
+  location: Prague, Czech Republic
+
+position: Senior Software Engineer
+profile: |
+  Software engineer with leadership abilities and scientific background. 
+  Strong analytical and reasoning skills, experience in working in international team. 
+  Able to learn new technologies and use them effectively. 
+  Experienced in architecting and design of complex solutions.
+
+skills:
+  - Passionate about <strong class="Tag">maintainability</strong> and <strong class="Tag">clean design</strong>
+  - Experienced with <strong class="Tag">java</strong> and <strong class="Tag">many more</strong>
+
 experience:
-- position: Senior Software Engineer
-  start: 2017
-  end: 2019
-- position: Backend Engineer
-  start: 2016
-  end: 2017
+- position: TopTal, Prague
+  url: https://www.toptal.com/#snag-amazong-coders-today
+  role: Senior Software Engineer
+  period: May 2019 - present
+  achievements:
+    - one
+    - two
+    - three
+- position: GoEuro s.r.o., Prague
+  url: https://www.omio.com
+  role: Senior Software Engineer
+  period: Sept 2018 - Apr 2019
+  achievements:
+    - I was awesome there
+
+education:
+  - degree: M.S.E. in Computer and Information Science
+    term: 2006 - 2009
+    name: Moscow Institute of Physics and Technology
+    location: Russia
+    description: |
+      Graduate coursework: mechanical deformation simulation, parallel algorithms
+  - degree: B.S.E. in Applied Mathematics and Physics
+    term: 2003 - 2006
+    name: Moscow Institute of Physics and Technology
+    location: Russia
+    description: |
+      Undergraduate coursework: scientific data visualization, fluid simulation

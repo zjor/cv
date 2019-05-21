@@ -1,15 +1,118 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>{{title}}</title>
-    </head>
-    <body>
-        <p>{{content}}</p>
-        <ul class="experience">
-            {{#each experience}}
-            <li>{{position}} {{start}} - {{end}}</li>
-            {{/each}}
-        </ul>
-        
-    </body>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>{{title}}</title>
+</head>
+
+<body>
+    <nav class="Navbar">
+        <div class="l-Wrapper l-Wrapper--reset@sm-down">
+            <ul class="u-pullRight u-hidden@xs-down">
+                <li>
+                    <a class="Navbar-btn Navbar-btn--main"
+                        href="http://sonjastrieder.com/download/sonja-strieder-frontend-ui-developer.pdf"
+                        target="_blank">Download
+                        <span>(pdf)</span>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="{{info.linkedin}}" target="_blank">Linkedin</a></li>
+                <li><a href="{{info.github}}" target="_blank">GitHub</a></li>
+                <li><a href="{{info.medium}}" target="_blank">Medium</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <article class="l-Wrapper">
+
+        <div class="l-Header">
+            <div class="l-Header-col">
+                <a href="{{info.github}}" target="_blank">
+                    <h1 class="Title">
+                        <span class="u-shadow">
+                            {{firstName}}<br>
+                            {{lastName}}
+                        </span>
+                        <span class="Title-sub">{{position}}</span>
+                    </h1>
+                </a>
+            </div>
+            <div class="l-Header-col Contact">
+                <div>{{info.location}}</div>
+                <div><a class="u-link" href="{{info.github}}" target="_blank">{{info.github}}</a></div>
+                <div><a class="u-link" href="mailto:{{info.email}}" target="_blank">{{info.email}}</a></div>
+            </div>
+        </div>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3 u-hidden@sm-down">Profile</h2>
+            <div class="l-Section-content">
+                <p>{{profile}}</p>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Skills</h2>
+            <div class="l-Section-content">
+                <ul>
+                    {{#each skills}}
+                    <li>{{{ this }}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Experience</h2>
+            <div class="l-Section-content">
+                {{#each experience}}                
+                <h3>{{ role }}</h3>
+                <a class="u-link" href="{{ url }}" target="_blank">{{ position }}</a><br>
+                {{ period }}
+
+                <ul>
+                    {{#each achievements}}
+                    <li>{{{ this }}}</li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="l-Section">
+            <h2 class="l-Section-title h3">Education</h2>
+            <div class="l-Section-content">
+                {{#each education}}
+                <h3>{{ degree }}</h3>
+                <a class="u-link" href="https://www.fh-ooe.at/en/hagenberg-campus/" target="_blank">{{ name }}</a> ({{ location }})<br>
+                {{ term }}
+                <p>{{ description }} </p>
+                {{/each}}
+            </div>
+        </section>
+
+        <section class="l-Section u-hidden@print">
+            <h2 class="l-Section-title h3">Interests</h2>
+            <div class="l-Section-content">
+                <p>User Experience, Accessibility, Web Standards, Automatization, Technology, Simplicity, Snowboarding,
+                    Bouldering, Coffee, Food, Art, Music, Movies, Traveling, Cabins, Plants, Goats, Chickens</p>
+            </div>
+        </section>
+    </article>
+
+    <div class="l-Wrapper u-keyline">
+        <div class="l-Footer">
+            <div class="l-Footer-col">
+                <strong class="Tag">Sergey Royz</strong>
+            </div>
+            <div class="l-Footer-col Contact">
+                Design by <a href="http://sonjastrieder.com" target="_blank">Sonja Strieder</a>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
