@@ -4,7 +4,8 @@
   "description": "Resume generator based on data provided in YAML",
   "main": "index.js",
   "scripts": {
-    "render": "node render.js"
+    "render": "node render.js",
+    "watch": "node render.js --watch"
   },
   "repository": {
     "type": "git",
