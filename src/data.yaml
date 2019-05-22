@@ -19,11 +19,15 @@ profile: |
   Experienced in architecting and design of complex solutions.
 
 skills:
-  - Passionate about <strong class="Tag">maintainability</strong> and <strong class="Tag">clean design</strong>
-  - Experienced with <strong class="Tag">java</strong> and <strong class="Tag">many more</strong>
+  - "Technologies: Java, Spring, Hibernate, Python, Django, Android, C, HTML, CSS, JavaScript, ReactJS, SOAP, XML"
+  - "Testing: JUnit, Mockito"
+  - "Tool & OSes: Mac OS, Linux, Windows, vim, IntelliJ IDEA, Eclipse IDE, Jenkins (CI), Docker, Ansible"
+  - "Databases: PostgreSQL, MS SQL Server, Oracle, MySQL, MongoDB"
+  - "Team Development: Git, SVN, CVS, ClearCase"
+  - "Languages: English (fluent), Czech (fluent), Russian (native)"
 
 experience:
-- position: TopTal Inc
+- position: TopTal Inc.
   location: Prague, Czech Republic
   url: https://www.toptal.com/#snag-amazong-coders-today
   role: Senior Software Engineer - self-employed
@@ -145,3 +149,10 @@ education:
     location: Russia
     description: |
       Undergraduate coursework: scientific data visualization, fluid simulation
+
+extra-experience:
+  - "Courses: Coursera (FunProg, Scala, 2014), Stanford Online (ML, Octave, 2011)"
+  - "Certificate: SQL DML Specialist [All requirements] #B08019015/03.01.2008, (sql-ex.ru)"
+  - "Instructor (2007-2010): Taught full-credit Computer Science courses"
+  - "Curator (2005-2007): Taught java-courses at the university"
+
