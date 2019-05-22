@@ -24,8 +24,12 @@ render(templateFilename, dataFilename, outputFilename)
 
 if (shouldWatch(process.argv)) {
     console.log("Watching... Press Ctrl+C to quit.")
-    const watcher = fs.watch('./src', (event, filename) => {
+    fs.watch('./src', (event, filename) => {
         console.log(`${event}: ${filename}`)
-        render(templateFilename, dataFilename, outputFilename)
+        try {
+            render(templateFilename, dataFilename, outputFilename)    
+        } catch (error) {
+            console.log(`Rendering failed: ${error}`)
+        }        
     })
 }

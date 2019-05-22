@@ -23,22 +23,114 @@ skills:
   - Experienced with <strong class="Tag">java</strong> and <strong class="Tag">many more</strong>
 
 experience:
-- position: TopTal, Prague
+- position: TopTal Inc
+  location: Prague, Czech Republic
   url: https://www.toptal.com/#snag-amazong-coders-today
-  role: Senior Software Engineer
-  period: May 2019 - present
+  role: Senior Software Engineer - self-employed
+  term: May 2019 - present
   achievements:
-    - one
-    - two
-    - three
-    - four
-    
-- position: GoEuro s.r.o., Prague
-  url: https://www.omio.com
+
+# GoEuro s.r.o.
+- position: GoEuro s.r.o.
+  location: Prague, Czech Republic
+  url: https://www.omio.com/
   role: Senior Software Engineer
-  period: Sept 2018 - Apr 2019
+  term: Sept 2018 - Apr 2019
   achievements:
-    - I was awesome there
+    - Integrated several 3rd-party ferry providers into the core product
+    - Desiged architecture for aggregators support
+    - Developed several microservices with Spring Boot
+  technologies: Spring Boot, Kubernetes, Couchbase, MySQL
+
+# Cisco s.r.o.
+- position: Cisco Systems
+  location: Prague, Czech Republic
+  url: https://www.cisco.com/
+  role: Senior Software Engineer
+  term: Feb 2017 - Jul 2018
+  achievements:
+    - Implemented variuos microservices with Spring Boot
+    - Preparing infrastructure for handling increasing volumes of data
+    - Rrefactored flows in Apache Storm
+    - Containerization and preparing infrastructure for migration to AWS
+  technologies: Spring Boot, Apache Storm, Docker, AWS, RabbitMQ, Avro, Parquet
+
+# HPE s.r.o.
+- position: HewlettPackard Enterprise
+  location: Prague, Czech Republic
+  url: https://www.hpe.com/
+  role: Software Designer
+  term: Aug 2016 - Dec 2016
+  achievements:
+    - Bug-fixing in Operations Analysis project
+    - Component dockerization
+    - Development of ChatOps bot
+  technologies: Java 8, Apache Kafka, Docker, Ansible, Hubot, CoffeeScript
+
+# instabank
+- position: Instabank
+  location: Prague, Czech Republic
+  url: https://upupapp.com/
+  role: Lead Software Engineer
+  term: Sept 2012 - Aug 2016
+  achievements:
+    - Architecture design and backend development for <a href="http://upupapp.com">upupapp.com</a>
+    - Implemented deposits support in current product
+    - Implemented account statement request functionality
+    - Redesigned card order process
+    - Integrated card-to-card payment provider (Arius)
+    - Implemented core services on backend at earlier stages of the project
+  technologies: j2ee, java8, spring (webmvc, security), hibernate (criteria api), maven, git, jenkins, docker, python, django, PlayFramwork (1.2.x), html, css (bootstrap, materialisecss), js (angularJs), nodeJs, bash-scripting
+
+# idamobile
+- position: iDaMobile
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Lead Software Engineer
+  term: Mar 2011 - Sept 2012
+  achievements:
+    - Participated in technical negotiations with customers
+    - Designed architacture of mobile banking apps and backend
+    - Developed an Android app for various banks <a href="https://tinkoff.ru">Tinkoff Bank</a>, <a href="http://www.ubrr.ru/">InvestBank</a>, <a href="http://www.eubank.ru/">European Union Bank</a>
+    - Developed an Android app and backend for mobile banking solution for <a href="http://homecredit.ru/">HomeCredit Bank</a>
+  technologies: java, android, sqlLite, html, css, postgres, Talend Open Studio, google protobuf, guice DI
+
+# NetCracker - 2
+- position: NetCracker
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Lead Software Engineer
+  term: Feb 2010 - Mar 2011
+  achievements:
+    - Designed architecture for femtocell device management system
+    - Participated in business analysis and negotiation with a customer (Kuala-Lumpur, Malaysia)
+    - Designed architecture and implemented Blackberry app for workforce management
+  technologies: j2ee, j2me, oracle, pl\sql
+
+# Yandex
+- position: Yandex
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Software Engineer
+  term: Oct 2009 - Feb 2010
+  achievements:
+    - Integration support and deployment (MySQL, ETL)
+    - Improved internal report tools (J2SE, Swing)
+    - Integrated data mining tool (MatrixNet)
+  technologies: java (swing), mysql, Talend Open Studio
+
+# NetCracker - 1
+- position: NetCracker
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: J2EE Developer
+  term: Sept 2005 - Sept 2009
+  achievements:
+    - Developed integration with various systems (Web Services, FTP, LDAP)
+    - Product support at customer's site (Brussels, Belgium)
+    - Developed additional modules for OSS solution (J2EE, PL SQL, Web Services, EJB 2.0)
+    - Developed Eclipse RCP plug-in for graphical merge of business processes (GMF, EMF)
+  technologies: j2ee, swt, eclipse plugin development, oracle, pl\sql, SOAP, XPath, LDAP
 
 education:
   - degree: M.S.E. in Computer and Information Science
