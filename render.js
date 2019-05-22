@@ -6,7 +6,7 @@ const templateFilename = './src/template.hbs'
 const dataFilename = './src/data.yaml'
 const outputFilename = './index.html'
 
-const shouldWatch = (args) => args.filter(x => x == '--watch').length > 0
+const contains = (list, element) => list.filter(x => x === element).length > 0
 
 const render = (templateFilename, dataFilename, outputFilename) => {
     const template = Handlebars.compile(fs.readFileSync(templateFilename, 'utf8'))
@@ -22,7 +22,19 @@ const render = (templateFilename, dataFilename, outputFilename) => {
 
 render(templateFilename, dataFilename, outputFilename)
 
-if (shouldWatch(process.argv)) {
+if (contains(process.argv, '--pdf')) {
+    const pdf = require('html-pdf')
+    const options = {}
+    const html = fs.readFileSync(outputFilename, 'utf8')
+    pdf.create(html, options).toFile('./resume.pdf', function (err, res) {
+        if (err) {
+            console.log(err)
+        }
+        console.log(res)
+    })
+}
+
+if (contains(process.argv, '--watch')) {
     console.log("Watching... Press Ctrl+C to quit.")
     fs.watch('./src', (event, filename) => {
         console.log(`${event}: ${filename}`)
