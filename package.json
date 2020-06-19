@@ -1,0 +1,30 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Resume generator based on data provided in YAML",
+  "main": "index.js",
+  "scripts": {
+    "render": "node render.js",
+    "watch": "node render.js --watch",
+    "pdf": "node render.js --pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjor/cv.git"
+  },
+  "keywords": [
+    "js-yaml",
+    "handlebars"
+  ],
+  "author": "Sergey Royz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjor/cv/issues"
+  },
+  "homepage": "https://github.com/zjor/cv#readme",
+  "dependencies": {
+    "handlebars": "^4.1.2",
+    "js-yaml": "^3.13.1",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}

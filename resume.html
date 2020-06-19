@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>CV - Sergey Royz</title>
+    <style>
+        body, li, ul, a, p, div {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        body {
+            width: 960px;
+            /*height: 297mm;*/
+            margin: 0 auto;
+            font-family: georgia, serif;
+            font-size: 14px;
+            /*border: 1px solid black;*/
+        }
+
+        header {
+            text-transform: uppercase;
+            border-bottom: 1px solid black;
+            font-family: sans-serif;
+            font-size: 14px;
+            margin-top: 1em;
+        }
+
+        ul li:before {
+            content: "- ";
+        }
+
+        ul li {
+            text-indent: 1em;
+        }
+
+        .content {
+            padding: 10mm 25mm;
+        }
+
+        .clearfix {
+            clear: both;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .left {
+            float: left;
+            width: 25%;
+            height: 100%;
+            font-size: 0.9em;
+        }
+
+        .center {
+            float: left;
+            width: 50%;
+            text-align: center;
+        }
+
+        .right {
+            float: left;
+            width: 25%;
+            text-align: right;
+            font-size: 0.9em;
+        }
+
+        strong,div.term {
+            font-size: 0.9em;
+            font-weight: bold;
+            font-family: sans-serif;
+            margin-top: 10px;
+            padding: 4px 0;
+        }
+
+        div.term {
+            padding-top: 20px;
+        }
+
+        section > .term {
+            margin-top: 0;
+        }
+
+        .name {
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+<div class="content">
+
+    <!-- contacts -->
+    <div class="clearfix">
+        <div class="left">
+            <p>
+                +420774053509<br/>
+                zjor.se@gmail.com<br/>
+                <a href="https://github.com/zjor">https://github.com/zjor</a>
+            </p>
+        </div>
+        <div class="center name">Sergey Royz</div>
+        <div class="right">Czech Republic, Prague</div>
+    </div>
+
+    <!-- employment -->
+    <section>
+        <header>employment</header>
+
+        <!-- GoEuro s.r.o. -->
+        <div class="clearfix term">
+            <div class="left">Senior Software Engineer</div>
+            <div class="center">GoEuro, Prague, Czech Republic</div>
+            <div class="right">Sept 2018 - present</div>
+        </div>
+        <article>
+            <ul>
+                <li>Integrating 3rd-party ferry providers into core product</li>
+                <li>Designing architecture to support aggregators</li>
+            </ul>
+            <strong>Technologies: Spring Boot, Kubernetes, Couchbase, MySQL</strong>
+        </article>
+
+        <!-- Cisco s.r.o. -->
+        <div class="clearfix term">
+            <div class="left">Senior Software Engineer</div>
+            <div class="center">Cisco Systems, Prague, Czech Republic</div>
+            <div class="right">Feb 2017 - Jul 2018</div>
+        </div>
+        <article>
+            <ul>
+                <li>Microservice implementation</li>
+                <li>Preparing infrastructure for handling increasing volumes of data</li>
+                <li>Containerization and preparing infrastructure for migration to AWS</li>
+            </ul>
+            <strong>Technologies: Spring Boot, Apache Storm, Docker, AWS, RabbitMQ, Avro, Parquet</strong>
+        </article>
+
+        <!-- HPE s.r.o. -->
+        <div class="clearfix term">
+            <div class="left">Software Designer</div>
+            <div class="center">HewlettPackard Enterprise, Prague, Czech Republic</div>
+            <div class="right">Aug 2016 - Dec 2016</div>
+        </div>
+        <article>
+            <ul>
+                <li>Bug-fixing</li>
+                <li>Component dockerization</li>
+                <li>Development of ChatOps bot</li>
+            </ul>
+            <strong>Technologies: Java 8, Apache Kafka, Docker, Ansible, Hubot, CoffeeScript</strong>
+        </article>
+
+
+        <!-- instabank -->
+        <div class="clearfix term">
+            <div class="left">Lead Software Engineer</div>
+            <div class="center">Instabank, Prague, Czech Republic</div>
+            <div class="right">Sept 2012 - Aug 2016</div>
+        </div>
+        <article>
+            <ul>
+                <li>Architecture design and backend development for <a href="http://upupapp.com">upupapp.com</a></li>
+                <li>Implemented deposits support in current product</li>
+                <li>Implemented account statement request functionality</li>
+                <li>Redesigned card order process</li>
+                <li>Integrated card-to-card payment provider (Arius)</li>
+                <li>Implemented core services on backend at earlier stages of the project</li>
+            </ul>
+            <strong>Technologies: j2ee, java8, spring (webmvc, security), hibernate (criteria api),
+                maven, git, jenkins, docker, python, django, PlayFramwork (1.2.x), html, css (bootstrap, materialisecss), js (angularJs), nodeJs, bash-scripting</strong>
+        </article>
+
+        <!-- idamobile -->
+        <div class="clearfix term">
+            <div class="left">Lead Software Engineer</div>
+            <div class="center">iDaMobile, Moscow, Russia</div>
+            <div class="right">Mar 2011 - Sept 2012</div>
+        </div>
+        <article>
+            <ul>
+                <li>Developed an Android app for <a href="https://tcsbank.ru">TCS Bank</a>,
+                    InvestBank, <a href="http://www.ubrr.ru/">UBRD</a>, <a href="http://www.eubank.ru/">European Union
+                        Bank</a></li>
+                <li>Developed an Android app and backend for mobile banking solution for <a href="http://homecredit.ru/">HomeCredit Bank</a></li>
+            </ul>
+            <strong>Technologies: java, android, sqlLite, html, css, postgres, Talend Open Studio, google protobuf, guice DI</strong>
+        </article>
+
+        <!-- netcracker-2 -->
+        <div class="clearfix term">
+            <div class="left">Lead Software Engineer</div>
+            <div class="center">NetCracker, Moscow, Russia</div>
+            <div class="right">Feb 2010 - Mar 2011</div>
+        </div>
+        <article>
+            <ul>
+                <li>Designed architecture for femtocell device management system</li>
+                <li>Participated in business analysis and negotiation with a customer (Kuala-Lumpur, Malaysia)</li>
+                <li>Designed architecture and implemented Blackberry app for workforce management
+                </li>
+            </ul>
+            <strong>Technologies: j2ee, j2me, oracle, pl\sql</strong>
+        </article>
+
+        <!-- yandex -->
+        <div class="clearfix term">
+            <div class="left">Software Engineer</div>
+            <div class="center">Yandex, Moscow, Russia</div>
+            <div class="right">Oct 2009 - Feb 2010</div>
+        </div>
+        <article>
+            <ul>
+                <li>Integration support and deployment (MySQL, ETL)</li>
+                <li>Improved internal report tools (J2SE, Swing)</li>
+                <li>Integrated data mining tool (MatrixNet)</li>
+            </ul>
+            <strong>Technologies: java (swing), mysql, Talend Open Studio</strong>
+        </article>
+
+        <!-- netcracker-1 -->
+        <div class="clearfix term">
+            <div class="left">Senior J2EE Developer</div>
+            <div class="center">NetCracker, Moscow, Russia</div>
+            <div class="right">Sept 2005 - Sept 2009</div>
+        </div>
+        <article>
+            <ul>
+                <li>Developed integration with various systems (Web Services, FTP, LDAP)</li>
+                <li>Product support at customer’s site (Brussels, Belgium)</li>
+                <li>Developed additional modules for OSS solution (J2EE, PL SQL, Web Services, EJB 2.0)</li>
+                <li>Developed Eclipse RCP plug-in for graphical merge of business processes (GMF, EMF)</li>
+            </ul>
+        </article>
+        <strong>Technologies: j2ee, swt, eclipse plugin development, oracle, pl\sql, SOAP, XPath, LDAP</strong>
+    </section>
+
+    <!-- education -->
+    <section>
+        <header>education</header>
+
+        <div class="clearfix term">
+            <div class="left">Moscow, Russia</div>
+            <div class="center">Moscow Institute of Physics and Technology</div>
+            <div class="right">Sept 2003 - May 2009</div>
+        </div>
+        <article>
+            <ul>
+                <li>M.S.E. in Computer and Information Science, May 2009.</li>
+                <li>B.S.E. in Applied Mathematics and Physics, May 2006.</li>
+                <li>Graduate coursework: mechanical deformation simulation, parallel algorithms</li>
+                <li>Undergraduate coursework: scientific data visualization, fluid simulation</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- technical experience & projects -->
+    <section>
+        <header>technical experience</header>
+        <div class="clearfix term">
+            <div class="left">Projects</div>
+        </div>
+        <article>
+            <ul>
+                <li><strong>iScream</strong> (2016 - present) - geo-based notification system (Pet-project) (<a
+                        href="https://app.iscream.xyz/">https://app.iscream.xyz/</a>). Built my k8s cluster on Scaleway, designed and implemented backend and frontend. (Kubernetes, Spring Boot, ReactJS, ReactNative)
+                </li>
+
+                <li><strong>RadixHealth</strong> (2017 - 2018) - doctor's schedule optimisation solution (<a
+                        href="https://www.radixhealth.com/">https://www.radixhealth.com/</a>). Implemented SSO support, user management admin console
+                    (Shibboleth, Spring single sign on, ReactJS, koa.js)
+                </li>
+                <li><strong>Podmigni</strong> (2013 - 2014) - rapid card to card payment service (<a
+                        href="http://www.podmigni.com/">http://www.podmigni.com/</a>). Implemented backend from scratch
+                    (Google Guice, Hibernate)
+                </li>
+                <li><strong>SmartTransactions</strong> (2013 - now) - service for enriching
+                    transaction
+                    information inside mobile banking app. Developed from scratch (Spring, Hibernate, Docker)
+                </li>
+                <li><strong>Kwenda</strong> (2011 - 2012) - travel guide which helps to find a lot of
+                    interesting places. Developed Android <a
+                            href="https://play.google.com/store/apps/details?id=com.kwenda">app</a>
+                </li>
+                <li><strong>WordSteps</strong> (2010 - 2011) - personal vocabulary trainer and a
+                    helpful
+                    tool in
+                    learning new languages. Developed J2ME and Android <a
+                            href="https://play.google.com/store/apps/details?id=com.wordsteps">app</a>
+                </li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- additional experience -->
+    <section>
+        <header>additional experience</header>
+        <article>
+            <ul>
+                <li><strong>Courses:</strong> Coursera (FunProg, Scala, 2014), Stanford Online (ML, Octave, 2011)</li>
+                <li><strong>Certificate:</strong> SQL DML Specialist [All requirements] #B08019015/03.01.2008, (sql-ex.ru)</li>
+                <li><strong>Instructor (2007-2010):</strong> Taught full-credit Computer Science courses</li>
+                <li><strong>Curator (2005-2007):</strong> Taught java-courses at the university</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- skills -->
+    <section>
+        <header>skills</header>
+        <article>
+            <ul>
+                <li><strong>Technologies:</strong> Java, Spring, Hibernate, Python, Django, Android, C, HTML, CSS,
+                    JavaScript, ReactJS, SOAP, XML
+                </li>
+                <li><strong>Testing:</strong> JUnit, Mockito</li>
+                <li><strong>Tool & OSes:</strong> Mac OS, Linux, Windows, vim, IntelliJ IDEA, Eclipse IDE, Jenkins (CI), Docker, Ansible</li>
+                <li><strong>Databases:</strong> PostgreSQL, MS SQL Server, Oracle, MySQL, MongoDB</li>
+                <li><strong>Team Development:</strong> Git, SVN, CVS, ClearCase</li>
+                <li><strong>Languages:</strong> English (fluent), Czech (fluent), Russian (native)</li>
+            </ul>
+        </article>
+    </section>
+
+</div>
+
+
+</body>
+</html>

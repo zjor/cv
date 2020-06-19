@@ -1,0 +1,160 @@
+title: Sergey Royz
+
+firstName: Sergey
+lastName: Royz
+photoUrl: https://res.cloudinary.com/zjor-storage/image/upload/c_scale,e_improve,q_100,w_400/v1592596262/695809_wjpzmg.jpg
+thumbnailUrl: https://res.cloudinary.com/zjor-storage/image/upload/c_scale,e_improve,q_100,w_128/v1592596262/695809_wjpzmg.jpg
+
+info:
+  github: https://github.com/zjor
+  linkedin: https://www.linkedin.com/in/sergey-royz-0b33a821/
+  medium: https://medium.com/@zjor
+  phone: +420774053509
+  email: zjor.se@gmail.com
+  location: Prague, Czech Republic
+
+position: Senior Software Engineer
+profile: |
+  Software engineer with leadership abilities and scientific background. 
+  Strong analytical and reasoning skills, experience in working in international team. 
+  Able to learn new technologies and use them effectively. 
+  Experienced in architecting and design of complex solutions.
+
+skills:
+  - "Technologies: Java, Spring, Hibernate, Python, Django, Android, C, HTML, CSS, JavaScript, ReactJS, SOAP, XML"
+  - "Testing: JUnit, Mockito"
+  - "Tool & OSes: Mac OS, Linux, Windows, vim, IntelliJ IDEA, Eclipse IDE, Jenkins (CI), Docker, Ansible"
+  - "Databases: PostgreSQL, MS SQL Server, Oracle, MySQL, MongoDB"
+  - "Team Development: Git, SVN, CVS, ClearCase"
+  - "Languages: English (fluent), Czech (fluent), Russian (native)"
+
+experience:
+- position: TopTal Inc.
+  location: Prague, Czech Republic
+  url: https://www.toptal.com/#snag-amazong-coders-today
+  role: Senior Software Engineer - self-employed
+  term: May 2019 - present
+  achievements:
+
+# GoEuro s.r.o.
+- position: GoEuro s.r.o.
+  location: Prague, Czech Republic
+  url: https://www.omio.com/
+  role: Senior Software Engineer
+  term: Sept 2018 - Apr 2019
+  achievements:
+    - Integrated several 3rd-party ferry providers into the core product
+    - Desiged architecture for aggregators support
+    - Developed several microservices with Spring Boot
+  technologies: Spring Boot, Kubernetes, Couchbase, MySQL
+
+# Cisco s.r.o.
+- position: Cisco Systems
+  location: Prague, Czech Republic
+  url: https://www.cisco.com/
+  role: Senior Software Engineer
+  term: Feb 2017 - Jul 2018
+  achievements:
+    - Implemented variuos microservices with Spring Boot
+    - Preparing infrastructure for handling increasing volumes of data
+    - Rrefactored flows in Apache Storm
+    - Containerization and preparing infrastructure for migration to AWS
+  technologies: Spring Boot, Apache Storm, Docker, AWS, RabbitMQ, Avro, Parquet
+
+# HPE s.r.o.
+- position: HewlettPackard Enterprise
+  location: Prague, Czech Republic
+  url: https://www.hpe.com/
+  role: Software Designer
+  term: Aug 2016 - Dec 2016
+  achievements:
+    - Bug-fixing in Operations Analysis project
+    - Component dockerization
+    - Development of ChatOps bot
+  technologies: Java 8, Apache Kafka, Docker, Ansible, Hubot, CoffeeScript
+
+# instabank
+- position: Instabank
+  location: Prague, Czech Republic
+  url: https://upupapp.com/
+  role: Lead Software Engineer
+  term: Sept 2012 - Aug 2016
+  achievements:
+    - Architecture design and backend development for <a href="http://upupapp.com">upupapp.com</a>
+    - Implemented deposits support in current product
+    - Implemented account statement request functionality
+    - Redesigned card order process
+    - Integrated card-to-card payment provider (Arius)
+    - Implemented core services on backend at earlier stages of the project
+  technologies: j2ee, java8, spring (webmvc, security), hibernate (criteria api), maven, git, jenkins, docker, python, django, PlayFramwork (1.2.x), html, css (bootstrap, materialisecss), js (angularJs), nodeJs, bash-scripting
+
+# idamobile
+- position: iDaMobile
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Lead Software Engineer
+  term: Mar 2011 - Sept 2012
+  achievements:
+    - Participated in technical negotiations with customers
+    - Designed architacture of mobile banking apps and backend
+    - Developed an Android app for various banks <a href="https://tinkoff.ru">Tinkoff Bank</a>, <a href="http://www.ubrr.ru/">InvestBank</a>, <a href="http://www.eubank.ru/">European Union Bank</a>
+    - Developed an Android app and backend for mobile banking solution for <a href="http://homecredit.ru/">HomeCredit Bank</a>
+  technologies: java, android, sqlLite, html, css, postgres, Talend Open Studio, google protobuf, guice DI
+
+# NetCracker - 2
+- position: NetCracker
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Lead Software Engineer
+  term: Feb 2010 - Mar 2011
+  achievements:
+    - Designed architecture for femtocell device management system
+    - Participated in business analysis and negotiation with a customer (Kuala-Lumpur, Malaysia)
+    - Designed architecture and implemented Blackberry app for workforce management
+  technologies: j2ee, j2me, oracle, pl\sql
+
+# Yandex
+- position: Yandex
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: Software Engineer
+  term: Oct 2009 - Feb 2010
+  achievements:
+    - Integration support and deployment (MySQL, ETL)
+    - Improved internal report tools (J2SE, Swing)
+    - Integrated data mining tool (MatrixNet)
+  technologies: java (swing), mysql, Talend Open Studio
+
+# NetCracker - 1
+- position: NetCracker
+  location: Moscow, Russia
+  url: https://www.netcracker.com/
+  role: J2EE Developer
+  term: Sept 2005 - Sept 2009
+  achievements:
+    - Developed integration with various systems (Web Services, FTP, LDAP)
+    - Product support at customer's site (Brussels, Belgium)
+    - Developed additional modules for OSS solution (J2EE, PL SQL, Web Services, EJB 2.0)
+    - Developed Eclipse RCP plug-in for graphical merge of business processes (GMF, EMF)
+  technologies: j2ee, swt, eclipse plugin development, oracle, pl\sql, SOAP, XPath, LDAP
+
+education:
+  - degree: M.S.E. in Computer and Information Science
+    term: 2006 - 2009
+    name: Moscow Institute of Physics and Technology
+    location: Russia
+    description: |
+      Graduate coursework: mechanical deformation simulation, parallel algorithms
+  - degree: B.S.E. in Applied Mathematics and Physics
+    term: 2003 - 2006
+    name: Moscow Institute of Physics and Technology
+    location: Russia
+    description: |
+      Undergraduate coursework: scientific data visualization, fluid simulation
+
+extra-experience:
+  - "Courses: Coursera (FunProg, Scala, 2014), Stanford Online (ML, Octave, 2011)"
+  - "Certificate: SQL DML Specialist [All requirements] #B08019015/03.01.2008, (sql-ex.ru)"
+  - "Instructor (2007-2010): Taught full-credit Computer Science courses"
+  - "Curator (2005-2007): Taught java-courses at the university"
+
