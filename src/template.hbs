@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <meta charset="utf-8" name="og:title" content="{{ title }}">
+    <meta charset="utf-8" name="og:description" content="{{ info.profile }}">
+    <meta charset="utf-8" name="og:image" content="{{ info.thumbnailUrl }}">
+
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>{{title}}</title>
 
@@ -51,6 +55,9 @@
                 </a>
             </div>
             <div class="l-Header-col Contact">
+                <div>
+                    <img class="avatar" src="{{ photoUrl }}"/>
+                </div>
                 <div>{{info.location}}</div>
                 <div><a class="u-link" href="{{info.github}}" target="_blank">{{info.github}}</a></div>
                 <div><a class="u-link" href="mailto:{{info.email}}" target="_blank">{{info.email}}</a></div>

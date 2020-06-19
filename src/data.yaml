@@ -2,6 +2,8 @@ title: Sergey Royz
 
 firstName: Sergey
 lastName: Royz
+photoUrl: https://res.cloudinary.com/zjor-storage/image/upload/c_scale,e_improve,q_100,w_400/v1592596262/695809_wjpzmg.jpg
+thumbnailUrl: https://res.cloudinary.com/zjor-storage/image/upload/c_scale,e_improve,q_100,w_128/v1592596262/695809_wjpzmg.jpg
 
 info:
   github: https://github.com/zjor

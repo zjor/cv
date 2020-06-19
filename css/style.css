@@ -432,3 +432,9 @@ a.Navbar-btn:hover {
 @page {
   margin: 2.2cm 2.2cm 1.8cm;
 }
+
+.avatar {
+  width: 150px;
+  border-radius: 20px;
+
+}
