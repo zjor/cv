@@ -7,8 +7,9 @@ thumbnailUrl: https://res.cloudinary.com/zjor-storage/image/upload/c_scale,e_imp
 
 info:
   github: https://github.com/zjor
-  linkedin: https://www.linkedin.com/in/sergey-royz-0b33a821/
+  linkedin: https://www.linkedin.com/in/sergey-royz/
   medium: https://medium.com/@zjor
+  youtube: https://www.youtube.com/c/SergeyRoyz/videos
   phone: +420774053509
   email: zjor.se@gmail.com
   location: Prague, Czech Republic
@@ -29,9 +30,25 @@ skills:
   - "Languages: English (fluent), Czech (fluent), Russian (native)"
 
 experience:
+
+# Swipelux OU
+- position: Swipelux OÜ
+  location: Prague, Czech Republic
+  url: https://swipelux.com/
+  icon: https://assets-mfv9c5.s3.eu-central-1.amazonaws.com/swipelux-logo_v1.0.svg
+  role: CTO
+  term: Dec 2020 - present
+  achievements:
+    - Developed the first MVP
+    - Designed architecture
+    - Managed development team
+    - Integrated 3d-party solutions
+
+# TopTal
 - position: TopTal Inc.
   location: Prague, Czech Republic
-  url: https://www.toptal.com/#snag-amazong-coders-today
+  url: https://topt.al/Pecd3A
+  icon: images/toptal-logo.svg
   role: Senior Software Engineer - self-employed
   term: May 2019 - present
   achievements:
