@@ -23,15 +23,26 @@ const render = (templateFilename, dataFilename, outputFilename) => {
 render(templateFilename, dataFilename, outputFilename)
 
 if (contains(process.argv, '--pdf')) {
-    const pdf = require('html-pdf')
-    const options = {}
-    const html = fs.readFileSync(outputFilename, 'utf8')
-    pdf.create(html, options).toFile('./resume.pdf', function (err, res) {
-        if (err) {
-            console.log(err)
-        }
-        console.log(res)
-    })
+    const puppeteer = require('puppeteer')
+    const path = require('path')
+    
+    ;(async () => {
+        const browser = await puppeteer.launch()
+        const page = await browser.newPage()
+        
+        // Load the HTML file with proper base URL so CSS can be resolved
+        const filePath = 'file://' + path.resolve(outputFilename)
+        await page.goto(filePath, { waitUntil: 'networkidle0' })
+        
+        await page.pdf({ 
+            path: './resume.pdf', 
+            format: 'A4',
+            printBackground: true,
+            margin: { top: '0.5in', bottom: '0.5in', left: '0.5in', right: '0.5in' }
+        })
+        await browser.close()
+        console.log('PDF generated: ./resume.pdf')
+    })().catch(console.error)
 }
 
 if (contains(process.argv, '--watch')) {

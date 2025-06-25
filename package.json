@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/zjor/cv#readme",
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "js-yaml": "^3.13.1",
-    "phantomjs-prebuilt": "^2.1.16"
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0",
+    "puppeteer": "^24.10.2"
   }
 }
