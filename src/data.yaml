@@ -11,11 +11,11 @@ info:
   medium: https://medium.com/@zjor
   youtube: https://www.youtube.com/c/SergeyRoyz/videos
   instagram: https://www.instagram.com/sergey.royz/
-  phone: +420774053509
+  phone: +(420) 774 053 509
   email: zjor.se@gmail.com
   location: Prague, Czech Republic
 
-position: Senior Software Engineer
+position: Head of Technology
 profile: |
   Software engineer with leadership abilities and scientific background. 
   Strong analytical and reasoning skills, experience in working in international team. 
@@ -23,138 +23,156 @@ profile: |
   Experienced in architecting and design of complex solutions.
 
 skills:
-  - "Technologies: Java, Spring, Hibernate, Python, Django, Android, C, HTML, CSS, JavaScript, ReactJS, SOAP, XML"
-  - "Testing: JUnit, Mockito"
-  - "Tool & OSes: Mac OS, Linux, Windows, vim, IntelliJ IDEA, Eclipse IDE, Jenkins (CI), Docker, Ansible"
-  - "Databases: PostgreSQL, MS SQL Server, Oracle, MySQL, MongoDB"
-  - "Team Development: Git, SVN, CVS, ClearCase"
+  - "Programming & Frameworks: Java, Spring, Python, TS/JS, React/Vue/Svelte, HTML, CSS, Mobile Development"
+  - "AI & Machine Learning: LLM Integration (OpenAI, Anthropic Claude), RAG Systems, Agentic AI Architectures"
+  - "Cloud & DevOps: Docker, Kubernetes, CI/CD (Jenkins), AWS, Microservices Architecture, Infrastructure as Code"
+  - "Databases: PostgreSQL, MySQL, MongoDB"
+  - "Development Tools: Git, IntelliJ IDEA, Linux, macOS"
   - "Languages: English (fluent), Czech (fluent), Russian (native)"
 
 experience:
+  # ION Water
+  - position: ION Water for Multifamily LLC
+    location: Prague, Czech Republic
+    url: https://ionwater.io/
+    role: CTO
+    term: Dec 2022 - present
+    achievements:
+      - Replaced legacy IT department and rebuilt all systems from scratch
+      - Migrated business operations to new systems with zero downtime
+      - Reduced IT maintenance costs by 8x compared to previous solution
+      - Assembled and led a new high-performing technology team
+      - Modernized infrastructure and established scalable technical foundation
 
-# Swipelux OU
-- position: Swipelux OÜ
-  location: Prague, Czech Republic
-  url: https://swipelux.com/
-  icon: https://assets-mfv9c5.s3.eu-central-1.amazonaws.com/swipelux-logo_v1.0.svg
-  role: CTO
-  term: Dec 2020 - present
-  achievements:
-    - Developed the first MVP
-    - Designed architecture
-    - Managed development team
-    - Integrated 3d-party solutions
+  # Swipelux OU
+  - position: Swipelux OÜ
+    location: Prague, Czech Republic
+    url: https://swipelux.com/
+    icon: https://assets-mfv9c5.s3.eu-central-1.amazonaws.com/swipelux-logo_v1.0.svg
+    role: CTO
+    term: Dec 2020 - Feb 2022
+    achievements:
+      - Developed the first MVP and designed system architecture
+      - Assembled and managed the technical development team
+      - Integrated third-party solutions and external APIs
+      - Contributed to successful angel investor fundraising efforts
+      - Built the technical team from the ground up
+      - Led product development from concept to market launch
 
-# TopTal
-- position: TopTal Inc.
-  location: Prague, Czech Republic
-  url: https://topt.al/Pecd3A
-  icon: images/toptal-logo.svg
-  role: Senior Software Engineer - self-employed
-  term: May 2019 - present
-  achievements:
+  # TopTal
+  - position: TopTal Inc.
+    location: Prague, Czech Republic
+    url: https://topt.al/Pecd3A
+    icon: images/toptal-logo.svg
+    role: Senior Software Engineer - self-employed
+    term: May 2019 - present
+    achievements:
+      - Delivered solutions across multiple technology stacks for diverse client projects
+      - Contributed effectively both as solo contributor and team member
+      - Maintained high client satisfaction and consistent project delivery standards
+      - Adapted quickly to varying technical requirements and international team collaboration
 
-# GoEuro s.r.o.
-- position: GoEuro s.r.o.
-  location: Prague, Czech Republic
-  url: https://www.omio.com/
-  role: Senior Software Engineer
-  term: Sept 2018 - Apr 2019
-  achievements:
-    - Integrated several 3rd-party ferry providers into the core product
-    - Desiged architecture for aggregators support
-    - Developed several microservices with Spring Boot
-  technologies: Spring Boot, Kubernetes, Couchbase, MySQL
+  # GoEuro s.r.o.
+  - position: Omio.com (former GoEuro s.r.o.)
+    location: Prague, Czech Republic
+    url: https://www.omio.com/
+    role: Senior Software Engineer
+    term: Sept 2018 - Apr 2019
+    achievements:
+      - Integrated several 3rd-party ferry providers into the core product
+      - Desiged architecture for aggregators support
+      - Developed several microservices with Spring Boot
+    technologies: Spring Boot, Kubernetes, Couchbase, MySQL
 
-# Cisco s.r.o.
-- position: Cisco Systems
-  location: Prague, Czech Republic
-  url: https://www.cisco.com/
-  role: Senior Software Engineer
-  term: Feb 2017 - Jul 2018
-  achievements:
-    - Implemented variuos microservices with Spring Boot
-    - Preparing infrastructure for handling increasing volumes of data
-    - Rrefactored flows in Apache Storm
-    - Containerization and preparing infrastructure for migration to AWS
-  technologies: Spring Boot, Apache Storm, Docker, AWS, RabbitMQ, Avro, Parquet
+  # Cisco s.r.o.
+  - position: Cisco Systems
+    location: Prague, Czech Republic
+    url: https://www.cisco.com/
+    role: Senior Software Engineer
+    term: Feb 2017 - Jul 2018
+    achievements:
+      - Implemented variuos microservices with Spring Boot
+      - Preparing infrastructure for handling increasing volumes of data
+      - Rrefactored flows in Apache Storm
+      - Containerization and preparing infrastructure for migration to AWS
+    technologies: Spring Boot, Apache Storm, Docker, AWS, RabbitMQ, Avro, Parquet
 
-# HPE s.r.o.
-- position: HewlettPackard Enterprise
-  location: Prague, Czech Republic
-  url: https://www.hpe.com/
-  role: Software Designer
-  term: Aug 2016 - Dec 2016
-  achievements:
-    - Bug-fixing in Operations Analysis project
-    - Component dockerization
-    - Development of ChatOps bot
-  technologies: Java 8, Apache Kafka, Docker, Ansible, Hubot, CoffeeScript
+  # HPE s.r.o.
+  - position: HewlettPackard Enterprise
+    location: Prague, Czech Republic
+    url: https://www.hpe.com/
+    role: Software Designer
+    term: Aug 2016 - Dec 2016
+    achievements:
+      - Bug-fixing in Operations Analysis project
+      - Component dockerization
+      - Development of ChatOps bot
+    technologies: Java 8, Apache Kafka, Docker, Ansible, Hubot, CoffeeScript
 
-# instabank
-- position: Instabank
-  location: Prague, Czech Republic
-  url: https://upupapp.com/
-  role: Lead Software Engineer
-  term: Sept 2012 - Aug 2016
-  achievements:
-    - Architecture design and backend development for <a href="http://upupapp.com">upupapp.com</a>
-    - Implemented deposits support in current product
-    - Implemented account statement request functionality
-    - Redesigned card order process
-    - Integrated card-to-card payment provider (Arius)
-    - Implemented core services on backend at earlier stages of the project
-  technologies: j2ee, java8, spring (webmvc, security), hibernate (criteria api), maven, git, jenkins, docker, python, django, PlayFramwork (1.2.x), html, css (bootstrap, materialisecss), js (angularJs), nodeJs, bash-scripting
+  # instabank
+  - position: Instabank
+    location: Prague, Czech Republic
+    url: https://upupapp.com/
+    role: Lead Software Engineer
+    term: Sept 2012 - Aug 2016
+    achievements:
+      - Architecture design and backend development for <a href="http://upupapp.com">upupapp.com</a>
+      - Implemented deposits support in current product
+      - Implemented account statement request functionality
+      - Redesigned card order process
+      - Integrated card-to-card payment provider (Arius)
+      - Implemented core services on backend at earlier stages of the project
+    technologies: j2ee, java8, spring (webmvc, security), hibernate (criteria api), maven, git, jenkins, docker, python, django, PlayFramwork (1.2.x), html, css (bootstrap, materialisecss), js (angularJs), nodeJs, bash-scripting
 
-# idamobile
-- position: iDaMobile
-  location: Moscow, Russia
-  url: https://www.netcracker.com/
-  role: Lead Software Engineer
-  term: Mar 2011 - Sept 2012
-  achievements:
-    - Participated in technical negotiations with customers
-    - Designed architacture of mobile banking apps and backend
-    - Developed an Android app for various banks <a href="https://tinkoff.ru">Tinkoff Bank</a>, <a href="http://www.ubrr.ru/">InvestBank</a>, <a href="http://www.eubank.ru/">European Union Bank</a>
-    - Developed an Android app and backend for mobile banking solution for <a href="http://homecredit.ru/">HomeCredit Bank</a>
-  technologies: java, android, sqlLite, html, css, postgres, Talend Open Studio, google protobuf, guice DI
+  # idamobile
+  - position: iDaMobile
+    location: Moscow, Russia
+    url: https://www.netcracker.com/
+    role: Lead Software Engineer
+    term: Mar 2011 - Sept 2012
+    achievements:
+      - Participated in technical negotiations with customers
+      - Designed architacture of mobile banking apps and backend
+      - Developed an Android app for various banks <a href="https://tinkoff.ru">Tinkoff Bank</a>, <a href="http://www.ubrr.ru/">InvestBank</a>, <a href="http://www.eubank.ru/">European Union Bank</a>
+      - Developed an Android app and backend for mobile banking solution for <a href="http://homecredit.ru/">HomeCredit Bank</a>
+    technologies: java, android, sqlLite, html, css, postgres, Talend Open Studio, google protobuf, guice DI
 
-# NetCracker - 2
-- position: NetCracker
-  location: Moscow, Russia
-  url: https://www.netcracker.com/
-  role: Lead Software Engineer
-  term: Feb 2010 - Mar 2011
-  achievements:
-    - Designed architecture for femtocell device management system
-    - Participated in business analysis and negotiation with a customer (Kuala-Lumpur, Malaysia)
-    - Designed architecture and implemented Blackberry app for workforce management
-  technologies: j2ee, j2me, oracle, pl\sql
+  # NetCracker - 2
+  - position: NetCracker
+    location: Moscow, Russia
+    url: https://www.netcracker.com/
+    role: Lead Software Engineer
+    term: Feb 2010 - Mar 2011
+    achievements:
+      - Designed architecture for femtocell device management system
+      - Participated in business analysis and negotiation with a customer (Kuala-Lumpur, Malaysia)
+      - Designed architecture and implemented Blackberry app for workforce management
+    technologies: j2ee, j2me, oracle, pl\sql
 
-# Yandex
-- position: Yandex
-  location: Moscow, Russia
-  url: https://www.netcracker.com/
-  role: Software Engineer
-  term: Oct 2009 - Feb 2010
-  achievements:
-    - Integration support and deployment (MySQL, ETL)
-    - Improved internal report tools (J2SE, Swing)
-    - Integrated data mining tool (MatrixNet)
-  technologies: java (swing), mysql, Talend Open Studio
+  # Yandex
+  - position: Yandex
+    location: Moscow, Russia
+    url: https://www.netcracker.com/
+    role: Software Engineer
+    term: Oct 2009 - Feb 2010
+    achievements:
+      - Integration support and deployment (MySQL, ETL)
+      - Improved internal report tools (J2SE, Swing)
+      - Integrated data mining tool (MatrixNet)
+    technologies: java (swing), mysql, Talend Open Studio
 
-# NetCracker - 1
-- position: NetCracker
-  location: Moscow, Russia
-  url: https://www.netcracker.com/
-  role: J2EE Developer
-  term: Sept 2005 - Sept 2009
-  achievements:
-    - Developed integration with various systems (Web Services, FTP, LDAP)
-    - Product support at customer's site (Brussels, Belgium)
-    - Developed additional modules for OSS solution (J2EE, PL SQL, Web Services, EJB 2.0)
-    - Developed Eclipse RCP plug-in for graphical merge of business processes (GMF, EMF)
-  technologies: j2ee, swt, eclipse plugin development, oracle, pl\sql, SOAP, XPath, LDAP
+  # NetCracker - 1
+  - position: NetCracker
+    location: Moscow, Russia
+    url: https://www.netcracker.com/
+    role: J2EE Developer
+    term: Sept 2005 - Sept 2009
+    achievements:
+      - Developed integration with various systems (Web Services, FTP, LDAP)
+      - Product support at customer's site (Brussels, Belgium)
+      - Developed additional modules for OSS solution (J2EE, PL SQL, Web Services, EJB 2.0)
+      - Developed Eclipse RCP plug-in for graphical merge of business processes (GMF, EMF)
+    technologies: j2ee, swt, eclipse plugin development, oracle, pl\sql, SOAP, XPath, LDAP
 
 education:
   - degree: M.S.E. in Computer and Information Science
