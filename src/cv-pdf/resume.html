@@ -88,6 +88,11 @@
       }
 
       @media print {
+        /* 2-page A4: no forced breaks, keep each entry whole */
+        @page { size: A4; }
+        .content { padding-top: 0; padding-bottom: 0; }
+        article { break-inside: avoid; }
+        .term { break-after: avoid; }
         .page-break {
           break-before: page; /* Or page-break-before: always; for older browser support */
         }
@@ -159,7 +164,7 @@
         <!-- <li>AWS Security Specialty</li> -->
         <li>Azure Fundamentals</li>
         <li>Kubernetes Security Essentials</li>
-        <li>Terraform Associate</li>
+        <li>Terraform Associate (004)</li>
         <li>Github Foundations</li>
         <li>Fortinet Certified Associate Cybersecurity</li>
       </ul>
@@ -191,8 +196,6 @@
       <br>
       <strong>Technologies: AWS, Terraform, Kubernetes, ArgoCD, Atlantis, Prometheus, Grafana, Github Actions</strong>
     </article>
-
-  <div class="page-break"></div>
 
     <!-- Orbit -->
     <div class="clearfix term">
@@ -325,7 +328,6 @@
 
     <!-- education -->
     <section>
-      <div style="page-break-before: always;"></div>
       <header>education</header>
       <!-- Brno, Czech Republic -->
       <div class="clearfix term">
@@ -375,7 +377,7 @@
       <article>
         <ul>
           <a href="https://www.credly.com/badges/0792a958-00d3-45b9-8a24-dcc3b535c674/public_url">Microsoft Certified: Azure Fundamentals</a> <br>
-          <a href="https://www.credly.com/badges/ef73b225-383e-436b-8a2e-ab79a9130108/public_url">Terraform Associate</a> <br>
+          <a href="https://www.credly.com/badges/b0726aee-e15f-4169-9189-09f3090ef28c/public_url">Terraform Associate (004)</a> <br>
           <a href="https://www.credly.com/badges/02bac719-36ac-4c33-8219-de55a0693370/public_url">Kubernetes Security Essentials</a> <br>
           <a href="https://www.credly.com/badges/81cc52c4-1c5f-457a-b060-fe35f8218bef/public_url">Github Foundations</a> <br>
           <a href="https://www.credly.com/badges/e94b53bb-294a-461d-aa00-adeee0b5181b/public_url">Fortinet Certified Associate Cybersecurity</a>

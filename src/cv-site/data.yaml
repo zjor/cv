@@ -147,8 +147,8 @@ education:
       Undergraduate coursework: machine building technologies
 
 certifications:
-  - name: "Terraform Associate"
-    url: "https://www.credly.com/badges/814cff27-4844-4419-9fd6-ea888d9ff25c/public_url"
+  - name: "Terraform Associate (004)"
+    url: "https://www.credly.com/badges/b0726aee-e15f-4169-9189-09f3090ef28c/public_url"
   - name: "Kubernetes Security Essentials"
     url: "https://www.credly.com/badges/02bac719-36ac-4c33-8219-de55a0693370/public_url"
   - name: "Fortinet Certified Associate Cybersecurity"
@@ -167,7 +167,7 @@ certifications:
   #   url: "https://www.credly.com/badges/b31f4057-9530-450e-8deb-5ea158093020/public_url"
 
 badges:
-  - id: "814cff27-4844-4419-9fd6-ea888d9ff25c"
+  - id: "b0726aee-e15f-4169-9189-09f3090ef28c"
   - id: "02bac719-36ac-4c33-8219-de55a0693370"
   - id: "e94b53bb-294a-461d-aa00-adeee0b5181b"
   - id: "81cc52c4-1c5f-457a-b060-fe35f8218bef"
