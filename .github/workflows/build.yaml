@@ -1,24 +1,37 @@
 name: build-deploy-pages
+
 on:
   push:
-    branches: [ master ]
+    branches: [master]
+  pull_request:
+
+concurrency:
+  group: build-deploy-pages-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
 jobs:
   build-deploy:
+    name: Render and deploy
     runs-on: ubuntu-latest
+
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v3
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v6.0.2
+
+      - uses: actions/setup-node@v6.5.0
         with:
           node-version: "10.15.3"
           cache: "npm"
+
       - name: Install dependencies
         run: npm install
+
       - name: Render page
         run: npm run render
+
       - name: Deploy to GH Pages 🚀
-        uses: peaceiris/actions-gh-pages@v3
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v4.1.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./dist
+          cname: cv.zubrik.me

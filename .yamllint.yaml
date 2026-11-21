@@ -1,0 +1,14 @@
+extends: default
+
+ignore: |
+  node_modules/
+  dist/
+
+rules:
+  truthy:
+    check-keys: false
+  # data.yaml keeps retired certifications as commented-out list items
+  comments-indentation: disable
+  document-start: disable
+  indentation: disable
+  line-length: disable
