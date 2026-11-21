@@ -9,12 +9,13 @@ item are in the [2026-11-21 optimization review](../process/specs/2026-11-21-cod
 - CI actions bumped off the deprecated v3 runners; PR build check; YAML and Actions lint with badges (part of #8)
 - CI on Node 26 LTS via `.nvmrc`, `npm ci` (#8)
 - Dropped `html-pdf`/`phantomjs-prebuilt` and `npm run pdf`; lockfile regenerated (part of #7)
+- handlebars 4.7.10, js-yaml 3.15.2 via `npm audit fix`: 0 known vulnerabilities (#7)
+- PDF CV fits 2 A4 pages; Terraform Associate badge updated to 004
 
 ## Now
 
 - Fix `<head>`: viewport, `lang`, OG tags, empty description (#3, #4)
 - Remove dead Universal Analytics tag (#5)
-- Bump handlebars/js-yaml: `npm audit fix` (3 advisories left, rest of #7)
 - Enforce HTTPS on Pages (#9)
 
 ## Next
