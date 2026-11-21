@@ -6,7 +6,7 @@ downloadable PDF. Layout follows [agentic-repo-seed](https://github.com/zjor/age
 ## Commands
 
 ```bash
-npm ci              # install (CI uses npm install today)
+npm ci              # install (Node version: .nvmrc; CI adds --ignore-scripts)
 npm run render      # build dist/ (index.html + css + resume.pdf/html)
 npm run watch       # re-render on changes under src/cv-site/
 npm run serve       # serve dist/ at http://localhost:8000

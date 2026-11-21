@@ -7,12 +7,13 @@ item are in the [2026-11-21 optimization review](../process/specs/2026-11-21-cod
 
 - Deploys keep the custom domain: `cname:` in the workflow (#1)
 - CI actions bumped off the deprecated v3 runners; PR build check; YAML and Actions lint with badges (part of #8)
+- CI on Node 26 LTS via `.nvmrc`, `npm ci --ignore-scripts` (#8)
 
 ## Now
 
 - Fix `<head>`: viewport, `lang`, OG tags, empty description (#3, #4)
 - Remove dead Universal Analytics tag (#5)
-- Modernise CI: Node 22, `npm ci`; bump handlebars/js-yaml (#7, #8)
+- Bump handlebars/js-yaml, drop html-pdf/phantomjs, regenerate the stale lockfile (#7)
 - Enforce HTTPS on Pages (#9)
 
 ## Next

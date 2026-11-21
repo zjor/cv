@@ -19,11 +19,12 @@ jobs:
 
       - uses: actions/setup-node@v6.5.0
         with:
-          node-version: "10.15.3"
+          node-version-file: ".nvmrc"
           cache: "npm"
 
+      # --ignore-scripts skips the PhantomJS binary download; the render doesn't use it
       - name: Install dependencies
-        run: npm install
+        run: npm ci --ignore-scripts
 
       - name: Render page
         run: npm run render

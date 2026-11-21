@@ -9,8 +9,8 @@ src/cv-site/css/ ────────┘                       └─ copies
 src/cv-pdf/resume.html ── (hand-edited, printed to PDF manually) ──► src/cv-pdf/resume.pdf
 src/cv-pdf/resume.{html,pdf} ── copied by render.js ──► dist/resume.{html,pdf}
 
-pull request   ─► .github/workflows/build.yaml ─► npm install ─► npm run render   (no deploy)
-push to master ─► .github/workflows/build.yaml ─► npm install ─► npm run render ─► gh-pages (publish ./dist + CNAME) ─► cv.zubrik.me
+pull request   ─► .github/workflows/build.yaml ─► npm ci --ignore-scripts ─► npm run render   (no deploy)
+push to master ─► .github/workflows/build.yaml ─► npm ci --ignore-scripts ─► npm run render ─► gh-pages (publish ./dist + CNAME) ─► cv.zubrik.me
 push / PR      ─► yaml-lint.yaml (yamllint) · actions-lint.yaml (actionlint)   (path-filtered)
 ```
 

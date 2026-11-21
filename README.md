@@ -22,7 +22,7 @@ cv/
 
 | Tool | Version |
 | --- | --- |
-| Node.js | 10.15.3 in CI (newer works locally) |
+| Node.js | 26 LTS (pinned in `.nvmrc`, used by CI) |
 | npm | bundled with Node |
 | Python | 3.7+ (only for `npm run serve`) |
 | yamllint | 1.38.0 (tested; optional, YAML checks) |
@@ -94,6 +94,6 @@ The web CV. Edit content here, not in the markup.
 
 ## Deployment
 
-Pushing to `master` runs `build.yaml`: `npm install` → `npm run render` → `peaceiris/actions-gh-pages` publishes `./dist` to the `gh-pages` branch, writing `CNAME` (`cv.zubrik.me`) on each deploy. Pull requests run the same build without deploying.
+Pushing to `master` runs `build.yaml` on Node from `.nvmrc`: `npm ci --ignore-scripts` → `npm run render` → `peaceiris/actions-gh-pages` publishes `./dist` to the `gh-pages` branch, writing `CNAME` (`cv.zubrik.me`) on each deploy. Pull requests run the same build without deploying.
 
 > **Important:** the repo is public. Everything in `src/cv-site/data.yaml`, including fields the page doesn't render (e.g. `info.phone`), is readable on GitHub.
