@@ -41,7 +41,6 @@ npm run serve   # terminal B: http://localhost:8000
 | `npm run render` | Render `dist/index.html` and copy CSS, `resume.pdf` and `resume.html` into `dist/` |
 | `npm run watch` | Same, then re-render on change |
 | `npm run serve` | Serve `dist/` on port 8000 |
-| `npm run pdf` | Render, then convert the **web** page to `src/cv-pdf/resume.pdf` with html-pdf (legacy, see roadmap) |
 
 ## Linting
 
@@ -94,6 +93,6 @@ The web CV. Edit content here, not in the markup.
 
 ## Deployment
 
-Pushing to `master` runs `build.yaml` on Node from `.nvmrc`: `npm ci --ignore-scripts` → `npm run render` → `peaceiris/actions-gh-pages` publishes `./dist` to the `gh-pages` branch, writing `CNAME` (`cv.zubrik.me`) on each deploy. Pull requests run the same build without deploying.
+Pushing to `master` runs `build.yaml` on Node from `.nvmrc`: `npm ci` → `npm run render` → `peaceiris/actions-gh-pages` publishes `./dist` to the `gh-pages` branch, writing `CNAME` (`cv.zubrik.me`) on each deploy. Pull requests run the same build without deploying.
 
 > **Important:** the repo is public. Everything in `src/cv-site/data.yaml`, including fields the page doesn't render (e.g. `info.phone`), is readable on GitHub.

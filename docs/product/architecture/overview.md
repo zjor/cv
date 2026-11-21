@@ -9,8 +9,8 @@ src/cv-site/css/ ────────┘                       └─ copies
 src/cv-pdf/resume.html ── (hand-edited, printed to PDF manually) ──► src/cv-pdf/resume.pdf
 src/cv-pdf/resume.{html,pdf} ── copied by render.js ──► dist/resume.{html,pdf}
 
-pull request   ─► .github/workflows/build.yaml ─► npm ci --ignore-scripts ─► npm run render   (no deploy)
-push to master ─► .github/workflows/build.yaml ─► npm ci --ignore-scripts ─► npm run render ─► gh-pages (publish ./dist + CNAME) ─► cv.zubrik.me
+pull request   ─► .github/workflows/build.yaml ─► npm ci ─► npm run render   (no deploy)
+push to master ─► .github/workflows/build.yaml ─► npm ci ─► npm run render ─► gh-pages (publish ./dist + CNAME) ─► cv.zubrik.me
 push / PR      ─► yaml-lint.yaml (yamllint) · actions-lint.yaml (actionlint)   (path-filtered)
 ```
 
@@ -27,7 +27,5 @@ push / PR      ─► yaml-lint.yaml (yamllint) · actions-lint.yaml (actionlint
   copy** in `resume.html` (known drift risk; see roadmap).
 - `dist/` is the only thing published. It is git-ignored.
 - GitHub Pages serves the `gh-pages` branch at the custom domain `cv.zubrik.me`.
-- `npm run pdf` (html-pdf / PhantomJS) converts the *web* page and overwrites
-  `src/cv-pdf/resume.pdf`. It is not how the current PDF is produced.
 - External runtime dependencies on the page: Google Fonts (Lato), Cloudinary (avatar), Credly
   embed script (badges), Google Analytics (UA, defunct).

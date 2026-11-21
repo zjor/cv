@@ -23,7 +23,8 @@ agents to work in, following [agentic-repo-seed](https://github.com/zjor/agentic
   a README badge for each (`yaml-lint.yaml` → yamllint 1.38.0, `actions-lint.yaml` → actionlint 1.7.12).
   Workflow actions were bumped to `checkout@v6.0.2`, `setup-node@v6.5.0` and `actions-gh-pages@v4.1.0`
   because actionlint rejects the old v3 runners. Node moved from 10.15.3 (EOL 2021) to 26 LTS, pinned in
-  `.nvmrc`; CI installs with `npm ci --ignore-scripts` to skip the unused PhantomJS download.
+  `.nvmrc`. The unused `html-pdf` / `phantomjs-prebuilt` dependencies (and `npm run pdf`) were removed:
+  their install script fails on current Node, and the PDF is exported from `resume.html` in a browser.
 - `run.sh` is replaced by `npm run serve` (serves `dist/`).
 - Docs follow the durability axis: `docs/product/` (permanent), `docs/process/` (build-moment
   records), `ops/` (recurring routines).

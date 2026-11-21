@@ -38,18 +38,6 @@ const render = (templateFilename, dataFilename, outputFilename) => {
 
 render(templateFilename, dataFilename, outputFilename)
 
-if (contains(process.argv, '--pdf')) {
-    const pdf = require('html-pdf')
-    const options = {}
-    const html = fs.readFileSync(outputFilename, 'utf8')
-    pdf.create(html, options).toFile(pdfFilename, function (err, res) {
-        if (err) {
-            console.log(err)
-        }
-        console.log(res)
-    })
-}
-
 if (contains(process.argv, '--watch')) {
     console.log("Watching... Press Ctrl+C to quit.")
     fs.watch(__dirname, { recursive: true }, (event, filename) => {

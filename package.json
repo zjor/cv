@@ -6,7 +6,6 @@
   "scripts": {
     "render": "node src/cv-site/render.js",
     "watch": "node src/cv-site/render.js --watch",
-    "pdf": "node src/cv-site/render.js --pdf",
     "serve": "python3 -m http.server 8000 --directory dist"
   },
   "engines": {
@@ -28,8 +27,6 @@
   "homepage": "https://github.com/zjor/cv#readme",
   "dependencies": {
     "handlebars": "^4.1.2",
-    "html-pdf": "^3.0.1",
-    "js-yaml": "^3.14.1",
-    "phantomjs-prebuilt": "^2.1.16"
+    "js-yaml": "^3.14.1"
   }
 }
