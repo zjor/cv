@@ -11,18 +11,19 @@ item are in the [2026-11-21 optimization review](../process/specs/2026-11-21-cod
 - Dropped `html-pdf`/`phantomjs-prebuilt` and `npm run pdf`; lockfile regenerated (part of #7)
 - handlebars 4.7.10, js-yaml 3.15.2 via `npm audit fix`: 0 known vulnerabilities (#7)
 - PDF CV fits 2 A4 pages; Terraform Associate badge updated to 004
+- `<head>`: viewport, `lang`, Open Graph `property=` tags, filled description (#3, #4)
+- Removed the defunct Universal Analytics tag (#5)
+- HTTPS: already enforced by Cloudflare in front of Pages (HTTP → 301 → HTTPS, valid `*.zubrik.me` cert). The GitHub "Enforce HTTPS" toggle cannot be used behind a proxy; no change needed (#9)
 
 ## Now
 
-- Fix `<head>`: viewport, `lang`, OG tags, empty description (#3, #4)
-- Remove dead Universal Analytics tag (#5)
-- Enforce HTTPS on Pages (#9)
+- Decide whether the Download (pdf) button should show on phones (hidden below 544px by `u-hidden@xs-down`)
+- Strict template rendering plus a colocated smoke test (#6, #15)
 
 ## Next
 
 - Single source of truth: render the PDF CV from `data.yaml`, generate the PDF in CI with headless
   Chromium, and stop committing `resume.pdf` (#2)
-- Strict template rendering plus a colocated smoke test (#6, #15)
 
 ## Later
 

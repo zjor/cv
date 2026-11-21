@@ -26,6 +26,7 @@ push / PR      ─► yaml-lint.yaml (yamllint) · actions-lint.yaml (actionlint
 - Content for the web CV lives only in `data.yaml`. The PDF content is a **separate, hand-maintained
   copy** in `resume.html` (known drift risk; see roadmap).
 - `dist/` is the only thing published. It is git-ignored.
-- GitHub Pages serves the `gh-pages` branch at the custom domain `cv.zubrik.me`.
+- GitHub Pages serves the `gh-pages` branch at the custom domain `cv.zubrik.me`, behind **Cloudflare**
+  (proxied DNS; Cloudflare terminates TLS and redirects HTTP → HTTPS).
 - External runtime dependencies on the page: Google Fonts (Lato), Cloudinary (avatar), Credly
   embed script (badges), Google Analytics (UA, defunct).
