@@ -1,18 +1,18 @@
-title: Roman Zubryckyj
+title: Roman Zubrytski
 
 firstName: Roman
-lastName: Zubryckyj
+lastName: Zubrytski
 
 info:
   webpage: https://zubrik.me
   github: https://github.com/zubrik13
-  gitlab: https://gitlab.com/zubrik
-  linkedin: https://www.linkedin.com/in/roman-zubryckyj-61a1b6a8/
+  # gitlab: https://gitlab.com/zubrik
+  linkedin: https://www.linkedin.com/in/roman-zubrytski-61a1b6a8/
   phone: +420777548165
   email: rzubrytski@gmail.com
   location: Prague, Czech Republic
 
-position: Platform Engineer
+position: Senior Platform Engineer
 profile: |
   Results-driven IT professional with over 5 years of experience in DevOps, operations and system design.
   Skilled in cloud platforms (AWS, Azure), infrastructure as code (Terraform, CloudFormation), container orchestration (Kubernetes, Docker),
@@ -32,7 +32,7 @@ experience:
 - position: StatsPerform
   location: Prague, Czech Republic
   url: https://www.statsperform.com/
-  role: Platform Engineer
+  role: Senior Platform Engineer
   term: June 2025 - present
   achievements:
     - Manage and troubleshoot Kubernetes clusters across on-premises and cloud environments

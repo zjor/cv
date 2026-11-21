@@ -34,8 +34,8 @@
             <ul>
                 <li><a href="{{info.linkedin}}" target="_blank">Linkedin</a></li>
                 <li><a href="{{info.github}}" target="_blank">GitHub</a></li>
-                <li><a href="{{info.gitlab}}" target="_blank">GitLab</a></li>
-<!--                <li><a href="{{info.hackerrank}}" target="_blank">HackerRank</a></li>-->
+                {{!-- <li><a href="{{info.gitlab}}" target="_blank">GitLab</a></li> --}}
+                {{!-- <li><a href="{{info.hackerrank}}" target="_blank">HackerRank</a></li> --}}
             </ul>
         </div>
     </nav>
@@ -83,7 +83,7 @@
         <section class="l-Section">
             <h2 class="l-Section-title h3">Experience</h2>
             <div class="l-Section-content">
-                {{#each experience}}                
+                {{#each experience}}
                 <h3>{{ role }}</h3>
                 <a class="u-link" href="{{ url }}" target="_blank">{{ position }}</a>, {{ location }}<br>
                 {{ term }}
@@ -130,7 +130,7 @@
     <div class="l-Wrapper u-keyline">
         <div class="l-Footer">
             <div class="l-Footer-col">
-                <strong class="Tag">Roman Zubryckyj</strong>
+                <strong class="Tag">Roman Zubrytski</strong>
             </div>
             <div class="l-Footer-col Contact">
                 Design by <a href="http://sonjastrieder.com" target="_blank">Sonja Strieder</a>
